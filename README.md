@@ -53,7 +53,7 @@ https://www.ncbi.nlm.nih.gov/bioproject/PRJEB108439/
 
 This dataset includes raw RNA-Seq reads, genome assemblies, and annotations of *T. atroviride* strain N1508.
 
-Genome assembly accession number: GCA_982374855.1
+Genome assembly accession number: GCA_982374855.1 (https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_982374845.1/)
 
 ---
 
@@ -100,11 +100,10 @@ Several tools were used in online or standalone mode; therefore, scripts are not
 
 ## Transcriptomic Analysis
 
-The transcriptomic pipeline consists of three main steps:
+The transcriptomic pipeline consists of two main steps:
 
 1. Read alignment and quantification  
 2. Differential gene expression analysis  
-3. Co-expression network analysis (WGCNA)
 
 Each step is implemented using dedicated scripts to process RNA-Seq data and generate interpretable outputs.
 
