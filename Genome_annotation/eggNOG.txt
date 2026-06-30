@@ -1,0 +1,36 @@
+eggNOG-mapper functional annotation
+==================================
+
+Protein functional annotation was performed using eggNOG-mapper.
+
+Tool
+----
+eggNOG-mapper version: v2.1.13
+https://eggnog-mapper.embl.de/
+
+Annotation procedure
+--------------------
+Predicted protein sequences (proteomes) were submitted individually to the
+eggNOG-mapper web interface.
+
+All analyses were performed using the default parameters provided by
+eggNOG-mapper.
+
+
+Input data
+----------
+- Input type: protein sequences (FASTA format)
+- One proteome per submission
+
+Output data
+-----------
+The following annotations were retrieved from eggNOG-mapper outputs and used
+for downstream analyses:
+- Functional annotations
+- PFAM domains
+
+Citation
+--------
+Carlos P Cantalapiedra, Ana Hernández-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas
+eggNOG-mapper v2: Functional Annotation, Orthology Assignments, and Domain Prediction at the Metagenomic Scale
+Molecular Biology and Evolution, Volume 38, Issue 12, December 2021, Pages 5825–5829, https://doi.org/10.1093/molbev/msab293
