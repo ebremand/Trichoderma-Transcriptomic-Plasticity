@@ -1,0 +1,37 @@
+STRING functional annotation
+============================
+
+Protein functional annotation and Gene Ontology (GO) enrichment was
+performed using STRING.
+
+Tool
+----
+STRING version: 12.0
+https://string-db.org/cgi/input?sessionId=bxXuCezaQVdK&input_page_show_search=on
+
+Annotation procedure
+--------------------
+Protein sequences (predicted proteomes) were submitted to the STRING web
+interface for functional annotation.
+
+Only the Gene Ontology (GO) annotations were retrieved and used for
+downstream analyses.
+
+Input data
+----------
+- Input type: protein sequences (FASTA format)
+- One proteome submitted per run
+
+Output data
+-----------
+- GO terms associated with submitted proteins
+- STRING protein identifiers and mappings for enrichment analyses
+
+Citation
+--------
+Damian Szklarczyk, Katerina Nastou, Mikaela Koutrouli, Rebecca Kirsch, Farrokh Mehryary, 
+Radja Hachilif, Dewei Hu, Matteo E Peluso, Qingyao Huang, Tao Fang, Nadezhda T Doncheva, 
+Sampo Pyysalo, Peer Bork, Lars J Jensen, Christian von Mering 
+The STRING database in 2025: protein networks with directionality of regulation
+Nucleic Acids Research, Volume 53, Issue D1, 6 January 2025, Pages D730–D737 
+https://doi.org/10.1093/nar/gkae1113
