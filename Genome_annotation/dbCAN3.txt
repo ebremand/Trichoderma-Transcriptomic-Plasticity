@@ -1,0 +1,42 @@
+dbCAN3 functional annotation
+============================
+
+CAZyme (Carbohydrate-Active Enzyme) annotation was performed online using dbCAN3.
+
+Tool
+----
+dbCAN3 version: v12.0
+http://dbcan-hcc.unl.edu/blast.php
+
+Annotation procedure
+--------------------
+Protein sequences (predicted proteomes) were submitted to the dbCAN3 web
+server for functional annotation.
+
+The following databases/tools were used for each submission:
+- The CAZy database via DIAMOND (E-value < 1e-102)
+- dbCAN HMMdb via HMMER (E-value < 1e-15, coverage > 0.35)
+- dbCAN-sub HMMdb via HMMER (E-value < 1e-15, coverage > 0.35)
+
+Only CAZyme annotations detected by at least two of the three databases
+were retained for downstream analyses to improve confidence.
+
+Input data
+----------
+- Input type: protein sequences (FASTA format)
+- One proteome submitted per run
+
+Output data
+-----------
+The standard dbCAN3 outputs were retrieved and used for downstream analyses,
+including:
+- High-confidence CAZyme family assignments (detected by ≥2 databases)
+- Functional annotation of predicted enzymes
+- Identification of potential substrate specificities
+
+Citation
+--------
+Jinfang Zheng, Qiwei Ge, Yuchen Yan, Xinpeng Zhang, Le Huang, Yanbin Yin
+dbCAN3: automated carbohydrate-active enzyme and substrate annotation
+Nucleic Acids Research, Volume 51, Issue W1, 5 July 2023, Pages W115–W121
+https://doi.org/10.1093/nar/gkad328
